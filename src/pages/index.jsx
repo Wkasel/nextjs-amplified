@@ -1,5 +1,5 @@
 import * as React from "react";
-import reducer from "./reducer";
+import reducer from "../util/reducer";
 import { nanoid } from "nanoid";
 import { API, graphqlOperation } from "aws-amplify";
 import config from "../aws-exports";
