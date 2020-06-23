@@ -2,10 +2,10 @@ import * as React from "react";
 import reducer from "./reducer";
 import { nanoid } from "nanoid";
 import { API, graphqlOperation } from "aws-amplify";
-import config from "../src/aws-exports";
-import { createTodo } from "../src/graphql/mutations";
-import { listTodos } from "../src/graphql/queries";
-import { onCreateTodo } from "../src/graphql/subscriptions";
+import config from "../aws-exports";
+import { createTodo } from "../graphql/mutations";
+import { listTodos } from "../graphql/queries";
+import { onCreateTodo } from "../graphql/subscriptions";
 
 API.configure(config);
 // Should be a device id or a cognito user id but this will do
