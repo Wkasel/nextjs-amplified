@@ -12,12 +12,6 @@
             "AmplifyAppId": "d1jzpkqhxgqlkp"
         },
         "categories": {
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d1jzpkqhxgqlkp",
-                    "type": "cicd"
-                }
-            },
             "auth": {
                 "nextjsamplified530105b0": {
                     "hostedUIProviderCreds": "[]"

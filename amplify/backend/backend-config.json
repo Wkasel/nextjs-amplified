@@ -1,10 +1,5 @@
 {
-	"hosting": {
-		"amplifyhosting": {
-			"service": "amplifyhosting",
-			"type": "cicd"
-		}
-	},
+	"hosting": {},
 	"auth": {
 		"nextjsamplified530105b0": {
 			"service": "Cognito",
